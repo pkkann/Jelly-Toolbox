@@ -1,0 +1,39 @@
+#ant specific
+jellytoolbox/dist/
+jellytoolbox/build/
+jellytoolbox/data/
+
+ 
+#netbeans specific
+jellytoolbox/core
+jellytoolbox/nbproject/*
+!jellytoolbox/nbproject/project.properties
+!jellytoolbox/nbproject/project.xml
+ 
+#java specific
+*.class
+ 
+#general swap/backup files
+*.so
+*.log
+*.out
+*~
+*.swp
+*.DS_Store
+*.lock
+
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/jellytoolbox/nbproject/private/
+/jellytoolbox/build/
+/jellytoolbox/dist/
